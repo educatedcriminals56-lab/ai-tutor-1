@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 20px;
+}
+#app { max-width: 600px; margin: auto; }
+#dialogue-messages { background: white; border-radius: 8px; padding: 10px; min-height: 200px; margin-bottom: 10px; }
+.user-message { text-align: right; color: #333; }
+.ai-message { text-align: left; color: #0077cc; }
+.input-area { display: flex; gap: 5px; }
